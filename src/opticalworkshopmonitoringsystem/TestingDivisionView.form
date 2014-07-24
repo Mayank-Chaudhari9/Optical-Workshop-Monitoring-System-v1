@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.persistence.EntityManager" name="entityManager">
+      <Properties>
+        <Property name="persistenceUnit" type="java.lang.String" value="drdo?zeroDateTimeBehavior=convertToNullPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.persistence.Query" name="testingQuery">
+      <Properties>
+        <Property name="query" type="java.lang.String" value="SELECT t FROM Testing t"/>
+        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
+          <ComponentRef name="entityManager"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.util.List" name="testingList">
+      <Properties>
+        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
+          <ComponentRef name="testingQuery"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;opticalworkshopmonitoringsystem.Testing&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Testing Division View"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="1115" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel7" min="-2" pref="145" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jTextField1" min="-2" pref="140" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" pref="145" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jTextField2" min="-2" pref="140" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="44" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jLabel24" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel23" alignment="0" pref="145" max="32767" attributes="0"/>
+                                  <Component id="jLabel25" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jTextField32" min="-2" pref="143" max="-2" attributes="0"/>
+                                  <Component id="jTextField31" min="-2" pref="143" max="-2" attributes="0"/>
+                                  <Component id="jTextField33" alignment="1" min="-2" pref="143" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="121" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" pref="121" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" pref="121" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton4" min="-2" pref="121" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="181" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField31" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField32" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField33" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="44" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <Properties>
+                <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="150" prefWidth="150" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="150" prefWidth="150" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                  <BindingProperties>
+                    <BindingProperty name="elements" source="testingList" target="jTable1" targetPath="elements" updateStrategy="0" immediately="true">
+                      <Subbinding sourcePath="${project}">
+                        <BindingParameter name="NAME" value="Project"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${component}">
+                        <BindingParameter name="NAME" value="Component"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${timeTaken}">
+                        <BindingParameter name="NAME" value="Time Taken"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${endDate}">
+                        <BindingParameter name="NAME" value="End Date"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${startDate}">
+                        <BindingParameter name="NAME" value="Start Date"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${testingTime}">
+                        <BindingParameter name="NAME" value="Testing Time"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${MTFmeasured}">
+                        <BindingParameter name="NAME" value="MTFmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${MTFspecified}">
+                        <BindingParameter name="NAME" value="MTFspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SDiaopticmeasured}">
+                        <BindingParameter name="NAME" value="SDiaopticmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SDiaopticspecified}">
+                        <BindingParameter name="NAME" value="SDiaopticspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SResolutionmeasured}">
+                        <BindingParameter name="NAME" value="SResolutionmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SResolutionspecified}">
+                        <BindingParameter name="NAME" value="SResolutionspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SFieldofViewmeasured}">
+                        <BindingParameter name="NAME" value="SFieldof Viewmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SFieldofViewspecified}">
+                        <BindingParameter name="NAME" value="SFieldof Viewspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${STransmissonmeasured}">
+                        <BindingParameter name="NAME" value="STransmissonmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${STransmissionspecified}">
+                        <BindingParameter name="NAME" value="STransmissionspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SFocallengthmeasured}">
+                        <BindingParameter name="NAME" value="SFocallengthmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${SFocallengthspecified}">
+                        <BindingParameter name="NAME" value="SFocallengthspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PAnglemeasured}">
+                        <BindingParameter name="NAME" value="PAnglemeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PAnglespecified}">
+                        <BindingParameter name="NAME" value="PAnglespecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PTransmissionmeasured}">
+                        <BindingParameter name="NAME" value="PTransmissionmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PTransmissionspecified}">
+                        <BindingParameter name="NAME" value="PTransmissionspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PFlatnessmeasured}">
+                        <BindingParameter name="NAME" value="PFlatnessmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PFlatnessspecified}">
+                        <BindingParameter name="NAME" value="PFlatnessspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PParallelismmeasured}">
+                        <BindingParameter name="NAME" value="PParallelismmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${PParallelismspecified}">
+                        <BindingParameter name="NAME" value="PParallelismspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${LTransmissionmeasured}">
+                        <BindingParameter name="NAME" value="LTransmissionmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${LTransmissionspecified}">
+                        <BindingParameter name="NAME" value="LTransmissionspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${LCenteringmeasured}">
+                        <BindingParameter name="NAME" value="LCenteringmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${lcenteringspecified}">
+                        <BindingParameter name="NAME" value="Lcenteringspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${LFocallenghtmeasured}">
+                        <BindingParameter name="NAME" value="LFocallenghtmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${LFocallengthspecified}">
+                        <BindingParameter name="NAME" value="LFocallengthspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${LROCmeasured}">
+                        <BindingParameter name="NAME" value="LROCmeasured"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                      <Subbinding sourcePath="${LROCspecified}">
+                        <BindingParameter name="NAME" value="LROCspecified"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+                        <BindingParameter name="javax.swing.binding.ParameterKeys.EDITABLE" value="false"/>
+                      </Subbinding>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Lens">
+                      <Color PropertyName="color" blue="cc" green="33" red="0" type="rgb"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel3" pref="145" max="32767" attributes="0"/>
+                              <Component id="jLabel4" max="32767" attributes="0"/>
+                              <Component id="jLabel6" max="32767" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jLabel1" pref="140" max="32767" attributes="0"/>
+                              <Component id="jTextField3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextField4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextField5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextField6" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel2" pref="140" max="32767" attributes="0"/>
+                              <Component id="jTextField7" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextField8" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextField10" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextField9" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextField4" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jTextField8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel6" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="jTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="36" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Specified"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Measured"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Radius of Curvature"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Focal Length"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Centering Measurement"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Transmission"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField3">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.LROCspecified}" target="jTextField3" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField4">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.LFocallengthspecified}" target="jTextField4" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField5">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.lcenteringspecified}" target="jTextField5" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField6">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.LTransmissionspecified}" target="jTextField6" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField7">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.LROCmeasured}" target="jTextField7" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField8">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.LFocallenghtmeasured}" target="jTextField8" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField9">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.LTransmissionmeasured}" target="jTextField9" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField10">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.LCenteringmeasured}" target="jTextField10" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Project Name "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1">
+              <BindingProperties>
+                <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.project}" target="jTextField1" targetPath="text" updateStrategy="0" immediately="false">
+                  <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                </BindingProperty>
+              </BindingProperties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Component"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField2">
+              <BindingProperties>
+                <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.component}" target="jTextField2" targetPath="text" updateStrategy="0" immediately="false">
+                  <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                </BindingProperty>
+              </BindingProperties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Prism /Flat">
+                      <Color PropertyName="color" blue="cc" green="33" red="0" type="rgb"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jLabel13" max="32767" attributes="0"/>
+                              <Component id="jLabel12" pref="145" max="32767" attributes="0"/>
+                              <Component id="jLabel11" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel10" pref="140" max="32767" attributes="0"/>
+                              <Component id="jTextField11" max="32767" attributes="0"/>
+                              <Component id="jTextField12" max="32767" attributes="0"/>
+                              <Component id="jTextField13" max="32767" attributes="0"/>
+                              <Component id="jTextField14" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextField15" max="32767" attributes="0"/>
+                                  <Component id="jTextField16" max="32767" attributes="0"/>
+                                  <Component id="jTextField17" max="32767" attributes="0"/>
+                                  <Component id="jTextField18" pref="140" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel14" min="-2" pref="140" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jTextField11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jTextField15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                                          <Component id="jLabel9" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTextField12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Parallelism"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Specified"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Flatness"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField11">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PParallelismspecified}" target="jTextField11" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Transmission"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel13">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Angle"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField12">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PFlatnessspecified}" target="jTextField12" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField13">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PTransmissionspecified}" target="jTextField13" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField14">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PAnglespecified}" target="jTextField14" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField15">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PParallelismmeasured}" target="jTextField15" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField16">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PFlatnessmeasured}" target="jTextField16" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField17">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PTransmissionmeasured}" target="jTextField17" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField18">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.PAnglemeasured}" target="jTextField18" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Measured"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="System">
+                      <Color PropertyName="color" blue="cc" green="33" red="0" type="rgb"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel19" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel18" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel17" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel15" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jTextField21" alignment="0" pref="140" max="32767" attributes="0"/>
+                                          <Component id="jTextField20" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTextField19" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel21" alignment="0" pref="140" max="32767" attributes="0"/>
+                                      <Component id="jLabel20" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel22" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jTextField22" max="32767" attributes="0"/>
+                                      <Component id="jTextField23" max="32767" attributes="0"/>
+                                      <Component id="jTextField24" alignment="0" pref="140" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel16" pref="140" max="32767" attributes="0"/>
+                              <Component id="jTextField25" max="32767" attributes="0"/>
+                              <Component id="jTextField26" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextField27" max="32767" attributes="0"/>
+                              <Component id="jTextField28" max="32767" attributes="0"/>
+                              <Component id="jTextField29" max="32767" attributes="0"/>
+                              <Component id="jTextField30" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField26" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField29" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField30" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel15">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Specified"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel16">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Measured"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel17">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Focal Length"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel18">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Transmission"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel19">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Field of View"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel20">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Resolution"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel21">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Diaoptic Setting"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel22">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="MTF"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField19">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SFocallengthspecified}" target="jTextField19" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField20">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.STransmissionspecified}" target="jTextField20" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField21">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SFieldofViewspecified}" target="jTextField21" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField22">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SResolutionspecified}" target="jTextField22" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField23">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SDiaopticspecified}" target="jTextField23" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField24">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.MTFspecified}" target="jTextField24" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField25">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SFocallengthmeasured}" target="jTextField25" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField26">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.STransmissonmeasured}" target="jTextField26" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField27">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SFieldofViewmeasured}" target="jTextField27" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField28">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SResolutionmeasured}" target="jTextField28" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField29">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.SDiaopticmeasured}" target="jTextField29" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField30">
+                  <BindingProperties>
+                    <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.MTFmeasured}" target="jTextField30" targetPath="text" updateStrategy="0" immediately="false">
+                      <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                    </BindingProperty>
+                  </BindingProperties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generate Report"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Testing start time"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField31">
+              <BindingProperties>
+                <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.startDate}" target="jTextField31" targetPath="text" updateStrategy="0" immediately="false">
+                  <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                </BindingProperty>
+              </BindingProperties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Testing end time"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField32">
+              <BindingProperties>
+                <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.endDate}" target="jTextField32" targetPath="text" updateStrategy="0" immediately="false">
+                  <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                </BindingProperty>
+              </BindingProperties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Time taken"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField33">
+              <BindingProperties>
+                <BindingProperty name="text" source="jTable1" sourcePath="${selectedElement.timeTaken}" target="jTextField33" targetPath="text" updateStrategy="0" immediately="false">
+                  <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+                </BindingProperty>
+              </BindingProperties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
